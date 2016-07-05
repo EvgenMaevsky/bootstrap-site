@@ -7,12 +7,16 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+.menu li{
+	padding: 0 10px;
+	font-size: 18px;
+}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -52,6 +56,10 @@
 		width: 40px;
 		border-radius: 50%;
 		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn span.glyphicon{
+		top: -17px;
 	}
 	#top_menu{
 		background-color: #2a2e48;
@@ -72,7 +80,13 @@
 	.title_block{
 		margin-top: 130px;
 	}
-	
+
+.download_block{
+padding: 20px 0 30px 0;
+}
+.team_s{
+padding: 60px 0 40px 0;
+}
 
 
 
@@ -99,6 +113,10 @@
 		border-radius: 50%;
 		background-color: #e84545;
 	}
+	.menu_btn span.glyphicon{
+		top: -17px;
+	}
+
 	#top_menu{
 		background-color: #2a2e48;
 		padding: 20px 0;
@@ -118,10 +136,26 @@
 	.title_block{
 		margin-top: 130px;
 	}
-
+.title_block h1{
+	font-size: 30px;
 }
 
-/* Custom, iPhone Retina */
+.title_block p{
+font-size: 14px;
+}
+.team_item{
+	margin-bottom: 30px;
+}
+.download_block{
+padding: 20px 0 30px 0;
+}
+.team_s{
+padding: 60px 0 40px 0;
+}
+/* Custom, iPhone Reti
+.team_item p{
+display:none;
+}na */
 @media only screen and (max-width : 320px) {
 
 	nav{
@@ -142,6 +176,7 @@
 		border-radius: 50%;
 		background-color: #e84545;
 	}
+
 	#top_menu{
 		background-color: #2a2e48;
 		padding: 20px 0;
@@ -161,10 +196,27 @@
 	.title_block{
 		margin-top: 130px;
 	}
-
+.title_block h1{
+	font-size: 30px;
 }
 
+.title_block p{
+font-size: 12px;
+}
 
+.team_item{
+	margin-bottom: 30px;
+
+}
+.team_item p{
+display:none;
+}
+.download_block{
+padding: 20px 0 30px 0;
+}
+.team_s{
+padding: 60px 0 40px 0;
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */

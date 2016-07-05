@@ -3,17 +3,36 @@ body{
 	font-size: 16px;
 	min-width: 320px;
 }
-
+.p0{
+	padding: 0;
+}
 /*buttons*/
 .my_btn{
 	background-color: #e84545;
 	border: none;
 	text-transform: uppercase;
+	color: #fff;
 }
 .btn_md{
 	padding: 10px 30px;
 }
+.btn_lg{
+	padding: 10px 30px;
 
+}
+.soc_btn_grey{
+	border: 1px solid #c6cacc;
+	background-color: transparent;
+	color: #c6c1c1;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 50px;
+}
+.soc_btn_white{
+	color: #fff;
+	border-color: #fff;
+	background-color: transparent;
+}
 /*header*/
 header{
 	height: 680px;
@@ -69,19 +88,134 @@ padding-top: 35px;
 	border-bottom: 1px solid #e1e1e1;
 }
 
-.title-block{
+.title_block{
 	color: #fff;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 200px;
 }
 
-.title-block h1{
+.title_block h1{
 	font-size: 50px;
 	font-family: "RalewayBold", sans-serif;
 	margin-bottom: 30px;
 }
 
-.title-block p{
+.title_block p{
 	font-size: 18px;
 	margin-bottom: 50px;
+}
+/*parameters*/
+
+.parameters{
+	padding: 95px 0;
+
+}
+
+.param_block{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.param_block i{
+	font-size: 70px;
+	color: #e84545;
+}
+
+.param_block h3{
+	text-transform: uppercase;
+	font-family: "Ralewaybold", sans-serif;
+	font-size: 20px;
+}
+.param_block p{
+	font-size: 14px;
+}
+/*work section*/
+.work_block{
+	position: relative;
+}
+.image_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,69,63,.6);
+	display: flex;
+	opacity: 0;
+}
+.work_block:hover .image_wrap{
+	opacity:1;
+}
+
+.work_descr{
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+
+/*team section*/
+
+.team_s{
+	padding: 95px 0;
+}
+
+.team_item h4{
+	font-family: "RalewayBold", sans-serif;
+}
+.team_item small{
+	text-transform: uppercase;
+	color: #e84545;
+}
+
+.team_item p{
+	font-size: 14px;
+	padding: 10px;
+	color: #a1a1a1;
+}
+
+/*download section*/
+
+.download_block{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.download_block h5{
+	font-size: 24px;
+}
+.download_block p{
+	font-family: "RalewayBold", sans-serif;
+	text-transform: uppercase;
+}
+
+/*footer*/
+
+.main_footer{
+	padding: 70px 0;
+	background-color: #3a3e64;
+}
+
+.footer_item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footer_item h5{
+	font-size: 16px;
+	font-family: "RalewayBold", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer_item p{
+	font-size: 14px;
+	color: #9d9fb2;
+}
+.copyright_block{
+	background-color: #313454;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.copy_txt{
+	color: #9c9fb2
 }
