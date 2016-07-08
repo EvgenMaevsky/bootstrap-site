@@ -33,6 +33,20 @@ body{
 	border-color: #fff;
 	background-color: transparent;
 }
+
+.call_btn{
+	position: fixed;
+	font-size: 20px;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	background: #e84545;
+	z-index: 999;
+	border: none;
+}
 /*header*/
 header{
 	height: 680px;
@@ -48,7 +62,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 9999;
+	z-index: 999;
 }
 
 .menu{
@@ -218,4 +232,14 @@ padding-top: 35px;
 
 .copy_txt{
 	color: #9c9fb2
+}
+
+/*modals*/
+#dlForm{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#dlForm input{
+	margin-bottom: 15px;
 }

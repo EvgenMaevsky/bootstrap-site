@@ -290,7 +290,29 @@
         <div class="col-md-6 col-md-offset-3">
           <h5>Are you ready to start? Download now for free</h5>
           <p>Lorem ipsum dolor sit amet.</p>
-          <button class="my_btn btn_lg">Download Now</button>
+          <button class="my_btn btn_lg" data-toggle="modal" data-target="#dlModal">Download Now</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="dlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Download</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#" id="dlForm">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                    <input type="password" class="form-control" placeholder="Your Password">
+                    <input type="submit" value="send" class="my_btn btn_md btn-block">
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -346,6 +368,8 @@
         </div>
       </div>
     </div>
+    <button class="call_btn"><span class="glyphicon glyphicon-earphone" data-toggle="modal" data-target="#dlModal"></span></button>
+
   </footer>
 
 </body>

@@ -89,7 +89,8 @@ padding: 60px 0 40px 0;
 }
 
 
-
+#dlForm{
+width: 100%;
 }
 
 /* Extra Small Devices, Phones */
@@ -152,10 +153,18 @@ padding: 20px 0 30px 0;
 .team_s{
 padding: 60px 0 40px 0;
 }
-/* Custom, iPhone Reti
+
 .team_item p{
 display:none;
-}na */
+}
+#dlForm{
+width: 100%;
+}
+.call_btn{
+	top: 8px;
+	right: 60px;
+}
+
 @media only screen and (max-width : 320px) {
 
 	nav{
@@ -216,6 +225,14 @@ padding: 20px 0 30px 0;
 }
 .team_s{
 padding: 60px 0 40px 0;
+}
+
+#dlForm{
+width: 100%;
+}
+.call_btn{
+	top: 8px;
+	right: 60px;
 }
 /*==========  Mobile First Method  ==========*/
 
